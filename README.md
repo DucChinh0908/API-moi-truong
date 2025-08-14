@@ -150,7 +150,7 @@ setInterval(() => {
 }, 1000);
 ```
 # III. Lời kết 📝
-* Đây là một dự án API nhỏ trong hệ thống nông nghiệp thông minh. Sắp tới mình sẽ đưa toàn bộ dự án lên GitHub. Mong nhận được góp ý để cải thiện hệ thống tốt hơn.
+* Xin chào mọi người đây là một dự án API nhỏ trong hệ thống nông nghiệp thông minh. Sắp tới mình sẽ đưa toàn bộ dự án lên GitHub, mong được mọi người sử dụng và nhận được góp ý để cải thiện hệ thống tốt hơn. Cảm ơn các bạn đã sử dụng dự án của mình.
 # IV. Thông tin liên hệ 📞
 * Gmail: Kinerno2008@gmail.com
 * Facebook: https://www.facebook.com/DucwsChi
