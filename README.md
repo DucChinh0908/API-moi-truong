@@ -149,7 +149,7 @@ setInterval(() => {
 }, 1000);
 ```
 # III. Lời kết 📝
-* Cảm ơn bạn đã sử dụng dự án của mình đây là 1 dự án nhỏ trong 1 dự án khác về nông nghiệp của mình sắp tới mình sẽ đưa toàn bộ dự án lên github và rất mong được các bạn sử dụng, mình rất mong nhận được lời góp ý từ mọi người để phát triển dự án tốt hơn.
+* Cảm ơn bạn đã sử dụng dự án của mình đây là 1 dự án nhỏ trong 1 dự án về nông nghiệp của mình, sắp tới mình sẽ đưa toàn bộ dự án lên github và rất mong được các bạn sử dụng, mình mong nhận được lời góp ý từ mọi người để dự án phát triển dự án tốt hơn.
 # IV. Thông tin liên hệ 📞
 * Gmail: Kinerno2008@gmail.com
 * Facebook: https://www.facebook.com/DucwsChinhs
