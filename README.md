@@ -26,7 +26,7 @@ while True:
 ```
 ```
 //JavaScript
-const url = "https://{tên repo}.onrender.com/api/data/moitruong";
+const url = "https://{tên API}.onrender.com/api/data/moitruong";
 setInterval(async () => {
   try {
     const data = await (await fetch(url)).json();
