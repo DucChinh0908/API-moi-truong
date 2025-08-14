@@ -6,7 +6,7 @@
   * 5.Build Command: pip install -r requirements.txt
   * 6.Start Command: gunicorn app:app --bind 0.0.0.0:$PORT
   * 7.Nhấn Create Web Service và đợi vài phút
-  * 8.sau khi deploy xong Render sẽ cho các bạn 1 đường dẫn API có dạng : https://{tên repo}.onrender.com
+  * 8.sau khi deploy xong Render sẽ cho các bạn 1 đường dẫn API có dạng : https://{tên API}.onrender.com
 # II.Sử dụng API 🛠
 ## 1. GET API
 * Lấy dữ liệu nhiệt độ, độ ẩm, lượng nước, độ ẩm đất
@@ -14,7 +14,7 @@
 #Python
 import requests
 import time
-url = "https://{tên repo}.onrender.com/api/data/moitruong"
+url = "https://{tên API}.onrender.com/api/data/moitruong"
 while True:
     headers = {
         "Content-Type": "application/json"
@@ -39,7 +39,7 @@ setInterval(async () => {
 #Python
 import requests
 import time
-url = "https://{tên repo}.onrender.com/api/data/caidat"
+url = "https://{tên API}.onrender.com/api/data/caidat"
 while True:
     headers = {
         "Content-Type": "application/json"
@@ -51,7 +51,7 @@ while True:
 ```
 ```
 //JavaScript
-const url = "https://{tên repo}.onrender.com/api/data/caidat";
+const url = "https://{tên API}.onrender.com/api/data/caidat";
 setInterval(async () => {
   try {
     const data = await (await fetch(url)).json();
@@ -65,7 +65,7 @@ setInterval(async () => {
 #Python
 import requests
 import time
-url = "https://api-moi-truong.onrender.com/api/data/moitruong"
+url = "https://{tên API}.onrender.com/api/data/moitruong"
 while True:
     data = {
         "nhietdo": random.randint(20,40),
@@ -82,7 +82,7 @@ while True:
 ```
 ```
 //JavaScript
-const url = "https://api-moi-truong.onrender.com/api/data/moitruong";
+const url = "https://{tên API}.onrender.com/api/data/moitruong";
 function randomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
@@ -108,7 +108,7 @@ setInterval(() => {
 import requests
 import random
 import time
-url = "https://api-moi-truong.onrender.com/api/data/caidat"
+url = "https://{tên API}.onrender.com/api/data/caidat"
 while True:
     value = {
         "nhietdotoithieu" : random.randint(20,40),
@@ -125,7 +125,7 @@ while True:
 ```
 ```
 //JavaScript
-const url = "https://api-moi-truong.onrender.com/api/data/caidat";
+const url = "https://{tên API}.onrender.com/api/data/caidat";
 
 function randomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
