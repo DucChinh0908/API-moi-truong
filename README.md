@@ -1,7 +1,7 @@
 # I.Cài đặt API ⚙
   * 1.Vào https://render.com/ → đăng ký bằng GitHub.
   * 2.Nhấn New → Web Service.
-  * 3.Chọn repo bạn vừa push.
+  * 3.Chọn repo bạn vừa push(hoặc bạn có thể sử dụng repo của mình và đổi tên API ở phần Name).
   * 4.Chọn environment: Python 3.x.
   * 5.Build Command: pip install -r requirements.txt
   * 6.Start Command: gunicorn app:app --bind 0.0.0.0:$PORT
